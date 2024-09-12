@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1>Ingrese la temperatura en celcius</h1>
+        <article class="form-group">
+            <label for="valor">temperatura:</label>
+            <input id="valor" name="valor" class="form-control" >
+        </article>
+        <article class="form-group">
+            <button onclick="calcular()" class="btn btn-primary">Calcular temperatura</button>
+        </article>         
+        <p id="respuesta" class="mt-4"></p>
+    </div>    
+
+    <script src="ejercicio_9.js"></script>
+</body>
+</html>

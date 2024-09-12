@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edades</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Promedio de Edades</h1>
+        <article class="mb-3">
+            <label for="manana" class="form-label">Edades de estudiantes del turno mañana (separadas por comas):</label>
+            <input type="text" class="form-control" id="manana" required>
+        </article>
+        <article class="mb-3">
+            <label for="tarde" class="form-label">Edades de estudiantes del turno tarde (separadas por comas):</label>
+            <input type="text" class="form-control" id="tarde" required>
+        </article>
+        <article class="mb-3">
+            <label for="noche" class="form-label">Edades de estudiantes del turno noche (separadas por comas):</label>
+            <input type="text" class="form-control" id="noche" required>
+        </article>
+        <article class="form-group">
+            <button onclick="calcular()" class="btn btn-primary">Calcular</button>
+        </article>  
+        <article class="mt-4">
+            <p id="avgM"></p>
+            <p id="avgT"></p>
+            <p id="avgN"></p>
+            <p id="mayor"></p>
+        </article>    
+    </div>    
+    <script src="ejercicio_10.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1>Calculadora de Descuentos de Viajes</h1>
+        <article class="form-group">
+            <label for="origin">Selecciona el origin:</label>
+            <select class="form-control" id="origen" name="origin">
+                <option value="PALMA">PALMA</option>
+                <option value="SAN SALVADOR">SAN SALVADOR</option>
+                <option value="COYOLITO">COYOLITO</option>
+                <option value="SAN MIGUEL">SAN MIGUEL</option>
+            </select>
+        </article>
+        <article class="form-group">
+            <label for="destino">Selecciona el destino:</label>
+            <select class="form-control" id="destino" name="destino">
+                <option value="LA COSTA DEL SOL">LA COSTA DEL SOL</option>
+                <option value="PANCHIMALCO">PANCHIMALCO</option>
+                <option value="PUERTO EL TRIUNFO">PUERTO EL TRIUNFO</option>
+                <option value="PUERTA DEL DIABLO">PUERTA DEL DIABLO</option>
+            </select>
+        </article> 
+        <article class="form-group">
+            <button onclick="descuento()" class="btn btn-primary">Calcular Descuento</button>
+        </article>         
+        <p id="respuesta" class="mt-4"></p>
+    </div>    
+
+    <script src="ejercicio_6.js"></script>
+</body>
+</html>
